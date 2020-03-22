@@ -10,7 +10,7 @@ import json
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
 local000001_xls = common.get_xls("test000001.xlsx", "Active_repayment")
-#local000001_xls = common.get_xls("test000001.xlsx", "Active_repayment")
+local000001_xls = common.get_xls("test000001.xlsx", "Active_repayment")
 #H5前端主动还款接口LB0096
 
 @paramunittest.parametrized(*local000001_xls)
