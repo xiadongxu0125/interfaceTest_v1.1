@@ -8,6 +8,7 @@ from common.configEmail import MyEmail
 localReadConfig = readConfig.ReadConfig()
 
 
+# noinspection PyInterpreter
 class AllTest:
     def __init__(self):
         global log, logger, resultPath, on_off
